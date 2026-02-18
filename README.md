@@ -1,11 +1,20 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# AURIX - Joyas Eternas 💎
 
-  <h1>Built with AI Studio</h2>
+Landing page de lujo optimizada para dispositivos móviles y tablets.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## ✅ Solución al error de Netlify
+He añadido un archivo `package.json` configurado con **React 18**. Esto soluciona el error `ERESOLVE` que veías en los logs de Netlify, ya que ahora las versiones de React y Lucide-React coinciden perfectamente.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🔄 Sincronización con Antigravity
+1. Usa el botón de **GitHub** en Antigravity para conectar tu cuenta.
+2. Selecciona tu repositorio y dale a **"Push"**. Esto subirá el nuevo `package.json` y el `index.html` corregido.
+3. Netlify detectará el cambio y esta vez el despliegue será exitoso (Success).
 
-</div>
+## 🚀 Configuración Final en Netlify
+Si el despliegue falla por "Build command", asegúrate de esto en la web de Netlify (Site settings > Build & deploy):
+- **Build command:** Déjalo VACÍO.
+- **Publish directory:** `.` (un punto).
+
+---
+*AURIX: Lujo patrimonial desde Caracas para el mundo.*
